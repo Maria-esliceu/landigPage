@@ -1,0 +1,13 @@
+h1{
+    background-color: #edb7fd;
+    color: #380426;
+    text-align: center;
+}
+
+h2{
+    color: #670546;
+}
+
+h3{
+    color: #6f32be;
+}
