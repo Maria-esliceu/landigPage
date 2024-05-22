@@ -12,7 +12,7 @@ html{
 }
 
 body{
-    font-family: "Lora",sans-serif;
+    font-family: "Roboto",sans-serif;
     font-size: var(--tamaño-fuente); /*1rem = 16px*/
     background-image: linear-gradient(to top,var(--gris) 0%,var(--blanco) 100%);
 }
