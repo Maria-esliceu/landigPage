@@ -1,27 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a mi Web</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-    <header>
-        <h1 class="titulo">Maria Colom <span>Informática</span></h1>
-    </header>
-    <div class="bg-secundario">
-        <nav class="navegacion-principal contenedor">
-            <a href="índex.html">Home</a>
-            <a href="cursos.html">Cursos</a>
-            <a href="información.html">Información</a>
-            <a href="blog.html">Blog</a>
-        </nav>
-    </div>
+<?php 
+    include 'db.php';
+    include 'header.php';
+?>
     <section class="hero">
         <div class="contenido_hero">
             <h2>Conceptos sobre informática</h2>
@@ -34,10 +14,10 @@
                 </svg>
                 <p>Informate correctamente</p>
             </div>
-            <a class="boton" href="cursos.html">Cursos</a>
+            <a class="boton" href="tutoriales.php">Tutoriales</a>
         </div>
     </section>
-    <main class="contenedor sombra">
+<main class="contenedor sombra">
         <h2>Mi contenido</h2>
         <div class="micontenido">
             <section class="contenido">
@@ -68,7 +48,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </section>
             <section class="contenido">
-                <h3>Blog</h3>
+                <h3>Contacto</h3>
                 <div class="icono">
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-article" width="84" height="84" viewBox="0 0 24 24" stroke-width="1.5" stroke="#edede9" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
@@ -81,46 +61,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </section>
         </div><!--micontenido-->
-        <section>
-            <h2>Contacto</h2>
-            <form class="formulario" action="">
-                <fieldset>
-                    <legend>Conáctame enviando tus datos</legend>
-                    <div class="contenedor-campos">
-                        <div class="campo">
-                            <div>
-                                <label for="">Nombre:</label>
-                                <input class="input-text" type="text" name="nombre" placeholder="Tu Nombre">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Telefono:</label>
-                                <input class="input-text" type="tel" name="telefono" id="" placeholder="Tu Teléfono">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Correo:</label>
-                                <input class="input-text" type="email" name="correo" id="" placeholder="Tu Correo">
-                            </div>
-                        </div>
-                        <div class="campo">
-                            <div>
-                                <label for="">Mensaje:</label>
-                                <textarea class="input-text" name="mensaje" id="" cols="30" rows="10"></textarea>
-                            </div>
-                        </div>
-                        <div>
-                            <input class="boton" type="submit" value="Enviar">
-                        </div>
-                    </div><!--contenedor-campos-->
-                </fieldset>
-            </form>
-        </section>
     </main>
-    <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>
-</body>
-</html>
+<?php
+    include 'footer.php';
+?>
