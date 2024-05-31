@@ -1,5 +1,11 @@
 <?php 
     include 'header.php';
+    if(isset($_GET['status'])){
+        $status=$_GET['status'];
+        $msg=$_GET['msg'];
+
+        echo "$status.... $msg<br>";
+    }
 ?>
 <h1>Contactanos</h1>
 <main>
