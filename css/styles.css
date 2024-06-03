@@ -230,3 +230,28 @@ p{
 footer{
     text-align: center;
 }
+
+/* MENSAJES FORMULARIO */
+.success{
+    background-color: green;
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-radius: 1rem;
+    border: 0.5rem solid rgb(24, 104, 0);
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.error{
+    background-color: red;
+    color: white;
+    width: 50%;
+    text-align: center;
+    border-radius: 1rem;
+    border: 0.5rem solid rgb(139, 1, 1);
+    margin-top: 3rem;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
