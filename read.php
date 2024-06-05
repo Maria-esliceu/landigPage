@@ -8,6 +8,23 @@
 <h1>Mensajes</h1>
 
 <div class="contenedor listado">
+    <div class="fila cabecera">
+        <div class="campoCabecera">
+            Id
+        </div>
+        <div class="campoCabecera">
+            Nombre
+        </div>
+        <div class="campoCabecera">
+            Telefono
+        </div>
+        <div class="campoCabecera">
+            Correo
+        </div>
+        <div class="campoCabecera">
+            Mensaje
+        </div>
+    </div>
     <?php
         while($row = $result->fetch_assoc()){
             ?>

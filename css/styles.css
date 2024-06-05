@@ -255,3 +255,24 @@ footer{
     font-size: 3rem;
     text-transform: uppercase;
 }
+
+/*ESTILOS PARA LA LISTA DE MENSAJES*/
+.cabecera{
+    padding-bottom: 1rem;
+}
+
+.campoCabecera{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2rem 0;
+    background-color: rgb(80, 59, 160);
+    text-align: center;
+    text-transform: uppercase;
+    border: #000000;
+    color: white;
+}
+
+.fila{
+    display: grid;
+    grid-template-columns: .5fr 2fr 1fr 1fr 3fr;
+}
