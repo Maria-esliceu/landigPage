@@ -16,9 +16,9 @@
     </header>
     <div class="bg-secundario">
         <nav class="navegacion-principal contenedor">
-            <a href="índex.php">Home</a>
+            <a href="index.php">Home</a>
             <a href="cursos.php">Cursos</a>
-            <a href="información.php">Información</a>
+            <a href="informacion.php">Información</a>
             <a href="read.php">Mensajes</a>
             <a href="contacto.php">Contacto</a>
         </nav>
